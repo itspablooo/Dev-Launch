@@ -10,6 +10,7 @@ import Homepage from './pages/Homepage.jsx'
 import Login from './pages/Login.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
+import ProjectPage from './pages/ProjectPage.jsx'
 
 // Preliminarty set up for react-router to work
 const router = createBrowserRouter([ 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       { 
         path: 'about', 
         element: <AboutPage /> 
+      },
+      { 
+        path: 'project/:id', 
+        element: <ProjectPage /> 
       },
     ],
   },
