@@ -3,6 +3,8 @@ const path = require('path');
 const stripe = require('stripe')('sk_te1st_51OfD09H9p4ncyPKt0Arf8JjiLc0dGGGc2fTAciY1xFEYf14Cadb4Sk4rVGyv2vUBxox1nvtFGcJVQzLtF0HK8WDz00BXGbjM4K');
 const bodyParser = require('body-parser');
 
+const db = require('./config/connection');
+
 const PORT = process.env.PORT || 3001;
 const app = express();
 
@@ -26,6 +28,4 @@ app.post('/charge', async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${3001}`);
-});
+app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
