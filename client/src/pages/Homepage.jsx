@@ -1,6 +1,8 @@
 // import { useState, useffect } from 'react';
 // import { Link, useNavigate } from 'react-router-dom';
 
+import { useQuery } from "@apollo/client";
+
 // importing to bring up the crowdfunding previews before entering a detail crowdfunding site
 // importing the List Items from the components folder
 
