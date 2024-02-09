@@ -2,11 +2,15 @@
   "name": "dev-launch",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "cd server && npm i && cd ../client && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm run build",
+    "seed": "cd server && npm run seed"
+
   },
   "keywords": [],
   "author": "",
