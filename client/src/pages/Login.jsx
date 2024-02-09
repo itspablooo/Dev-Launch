@@ -1,34 +1,27 @@
+import SignupForm from "../components/UI/ProfileSections/ProfileForm";
+
+
 export default function login() {
   return (
     <div className="container pt-4">
       <p>
-        This is the login page. You can use this page to log in to your account.
+        This is the login page. You can use this page to log in to your account or sign up.
       </p>
+      <section className="features-icons bg-light text-center m-4">
+        <div 
+          className="col-12 col-md-10 mb-3 p-4"
+        >
+          <h2>Sign Up</h2> 
+          <SignupForm />
+        </div> 
+
+      </section>
+
       <section className="features-icons bg-light text-center m-4">
         <div className="container">
           <div className="row p-2">
-            <div className="col-lg-4">
-              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-window m-auto text-primary" />
-                </div>
-                <h3>Fully Responsive</h3>
-                <p className="lead mb-0">
-                  This theme will look great on any device, no matter the size!
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-layers m-auto text-primary" />
-                </div>
-                <h3>Bootstrap 5 Ready</h3>
-                <p className="lead mb-0">
-                  Featuring the latest build of the new Bootstrap 5 framework!
-                </p>
-              </div>
-            </div>
+            <p>This is where you Login to your account.</p>
+
             <div className="col-lg-4">
               <div className="features-icons-item mx-auto mb-0 mb-lg-3">
                 <div className="features-icons-icon d-flex">
@@ -41,6 +34,8 @@ export default function login() {
                 </p>
               </div>
             </div>
+
+
           </div>
         </div>
       </section>
