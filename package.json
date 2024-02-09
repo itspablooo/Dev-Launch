@@ -2,9 +2,13 @@
   "name": "dev-launch",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/server.js",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm run build",
+    "seed": "cd server && npm run seed"
   },
   "keywords": [],
   "author": "",
