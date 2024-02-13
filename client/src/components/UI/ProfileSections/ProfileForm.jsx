@@ -32,6 +32,20 @@ const SignupForm = () => {
   return (
     <form onSubmit={handleFormSubmit}>
       <input
+        placeholder="First Name"
+        name="firstName"
+        type="text"
+        value={formState.firstName}
+        onChange={handleChange}
+      />
+      <input
+        placeholder="Last Name"
+        name="lastName"
+        type="text"
+        value={formState.lastName}
+        onChange={handleChange}
+      />
+      <input
         placeholder="Username"
         name="username"
         type="text"
