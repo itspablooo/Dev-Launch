@@ -27,6 +27,13 @@ const typeDefs = `
         posts: [Post]
         comments: [Comment]
     }
+    type mutation { 
+        addUser(firstName: String!, lastName: String!, email: String!, password: String!): User
+
+        addPost(title: String!, content: String!, author: userId!): Post
+
+        addComment(text: String!, postId: ID!, author: userId! ): Comment
+    }
 `;
 
 module.exports = typeDefs;
