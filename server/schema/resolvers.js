@@ -13,16 +13,16 @@ const resolvers = {
         }
     },
     Mutation: {
-        addUser: async (parent, args) => {
-            const user = await User.create(args);
+        addUser: async (parent, {firstName, lastName, email, username}) => {
+            const user = await User.create({firstName, lastName, email, username});
             return user;
         },
-        addPost: async (parent, args) => {
-            const post = await Post.create(args);
+        addPost: async (parent, {author, title, content }) => {
+            const post = await Post.create({author, title, content});
             return post;
         },
-        addComment: async (parent, args) => {
-            const comment = await Comment.create(args);
+        addComment: async (parent, { text, postId, author }) => {
+            const comment = await Comment.create({text, postId, author});
             return comment;
         }
     }
