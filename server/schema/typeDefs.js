@@ -28,12 +28,12 @@ const typeDefs = `
         posts: [Post]
         comments: [Comment]
     }
-    type mutation { 
-        addUser(firstName: String!, lastName: String!, email: String!, password: String!): User
+    type Mutation { 
+        addUser(firstName: String!, lastName: String!, email: String!, password: String!, username: String!): User
 
-        addPost(title: String!, content: String!, author: userId!): Post
-
-        addComment(text: String!, postId: ID!, author: userId! ): Comment
+        addPost(title: String!, content: String!, author: ID!): Post
+        
+        addComment(text: String!, postId: ID!, author: ID!): Comment
     }
 `;
 
