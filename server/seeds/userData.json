@@ -3,60 +3,70 @@
       "firstName": "John",
       "lastName": "Doe",
       "email": "john.doe@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "John_Doe"
     },
     {
       "firstName": "Jane",
       "lastName": "Smith",
       "email": "jane.smith@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "Jane_Smith"
     },
     {
       "firstName": "Alice",
       "lastName": "Johnson",
       "email": "alice.johnson@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "Alice_J"
     },
     {
       "firstName": "Bob",
       "lastName": "Brown",
       "email": "bob.brown@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "Bob_Brown"
     },
     {
       "firstName": "Emma",
       "lastName": "Davis",
       "email": "emma.davis@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "Emma_Davis"
     },
     {
       "firstName": "Michael",
       "lastName": "Wilson",
       "email": "michael.wilson@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "Michael_W"
     },
     {
       "firstName": "Sophia",
       "lastName": "Martinez",
       "email": "sophia.martinez@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "Sophia_M"
     },
     {
       "firstName": "David",
       "lastName": "Anderson",
       "email": "david.anderson@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "David_A"
     },
     {
       "firstName": "Olivia",
       "lastName": "Taylor",
       "email": "olivia.taylor@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "Olivia_T"
     },
     {
       "firstName": "James",
       "lastName": "Thomas",
       "email": "james.thomas@example.com",
-      "password": "password1234"
+      "password": "password1234",
+      "username": "James_T"
     }
   ]
