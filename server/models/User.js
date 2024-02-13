@@ -25,6 +25,12 @@ const userSchema = new Schema(
             required: true,
             trim: true,
         },
+        username: {
+            type: String,
+            required: true,
+            unique: true,
+            trim: true,
+        },
     }
 );
 // Hash the password before saving to the database

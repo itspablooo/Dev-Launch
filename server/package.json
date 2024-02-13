@@ -14,7 +14,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "mongoose": "^7.0.2",
-    "stripe": "^14.16.0"
+    "stripe": "^14.16.0",
     "bcrypt": "^5.1.0",
     "@apollo/server": "^4.7.1",
     "graphql": "^16.6.0"
