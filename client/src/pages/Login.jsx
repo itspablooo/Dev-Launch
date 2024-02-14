@@ -1,7 +1,7 @@
 import SignupForm from "../components/UI/ProfileSections/ProfileForm";
 
 
-export default function login() {
+const login = () => {
   return (
     <div className="container pt-4">
       <p>
@@ -51,3 +51,5 @@ export default function login() {
     </div>
   );
 }
+
+export default login;

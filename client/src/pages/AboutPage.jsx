@@ -1,4 +1,4 @@
-export default function AboutPage() {
+const AboutPage = () => {
   return (
     <div className="container pt-4">
       <p>
@@ -62,3 +62,5 @@ export default function AboutPage() {
     </div>
   );
 }
+
+export default AboutPage;
