@@ -1,41 +1,41 @@
 [
   {
-    "text": "I'm a paragraph"
+    "text": "This is a text.",
+    "author": {
+      "firstName":"Ricardo",
+      "lastName":"Farfan",
+      "email":"rmf@email.com",
+      "username":"rmf"
+    },  
+    "post": {
+      "title": "this is title",
+      "content" :"This is a content."
+    }     
   },
   {
-    "text": "I'm a paragraph2"
+    "text": "This is a text2.",
+    "author": {
+      "firstName":"Eddie",
+      "lastName":"P",
+      "email":"eddie@email.com",
+      "username":"ed"
+    },  
+    "post": {
+      "title": "this is title2",
+      "content" :"This is a content2."
+    }     
   },
   {
-    "text": "I'm a paragraph3"
-  },
-  {
-    "text": "I'm a paragraph4"
-  },
-  {
-    "text": "I'm a paragraph5"
-  },
-  {
-    "text": "I'm a paragraph6"
-  },
-  {
-    "text": "I'm a paragraph7"
-  },
-  {
-    "text": "I'm a paragraph8"
-  },
-  {
-    "text": "I'm a paragraph9"        
-  },
-  {
-    "text": "I'm a paragraph10"
-  },
-  {
-    "text": "I'm a paragraph11"
-  },
-  {
-    "text": "I'm a paragraph12"
-  },
-  {
-    "text": "I'm a paragraph13"
+    "text": "This is a text3.",
+    "author": {
+      "firstName":"Pablo",
+      "lastName":"MR",
+      "email":"pablo@email.com",
+      "username":"pablo"
+    },  
+    "post": {
+      "title": "this is title3",
+      "content" :"This is a content3."
+    }     
   }
 ]

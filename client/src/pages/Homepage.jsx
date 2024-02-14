@@ -3,7 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 
 import { useQuery } from "@apollo/client";
 
-//import Card from '../components/UI/Card';
+import ListItem from "../components/UI/ListItem"
+import Card from '../components/UI/Card';
 
 import { QUERY_POSTS } from "../../utils/queries";
 
@@ -29,6 +30,10 @@ const Homepage = () => {
 
       <h2>Tech Projects for Crowdfunding</h2>
       <div className="row">
+        <ListItem>
+          <Card key={posts} />
+        
+        </ListItem>
         {posts.map(({ _id, title, content }) => ( // corrected 'data.posts' to 'posts'
           <div key={_id}>
             <h3>{title}</h3>
