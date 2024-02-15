@@ -12,7 +12,8 @@ export default function Nav() {
         About </Link>,
       <Link key={3} className='nav-link text-light' to="/login">
         Login </Link>,
-      <Link key={4} className='nav-link text-light' to="/project">project
+      <Link key={4} className='nav-link text-light' to="/project">
+        Project
       </Link>
       ]}
     />

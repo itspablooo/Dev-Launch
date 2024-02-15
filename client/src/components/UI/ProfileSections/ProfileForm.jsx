@@ -3,6 +3,11 @@ import { useMutation } from '@apollo/client'
 
 import { ADD_USER } from '../../../../utils/mutations';
 
+const textStyle = {
+    color: 'black'
+  } 
+
+
 
 const SignupForm = () => {
   const [formState, setFormState] = useState({ username: '', email: '', password: '' });
@@ -30,8 +35,9 @@ const SignupForm = () => {
   };
 
   return (
-    <form onSubmit={handleFormSubmit}>
-      <input
+    <form className="mb-3" onSubmit={handleFormSubmit}>
+      <input 
+        className='col-6 m-3 bg-light text-black'
         placeholder="First Name"
         name="firstName"
         type="text"
@@ -39,6 +45,7 @@ const SignupForm = () => {
         onChange={handleChange}
       />
       <input
+        className='col-6 m-3 bg-light text-black'
         placeholder="Last Name"
         name="lastName"
         type="text"
@@ -46,6 +53,7 @@ const SignupForm = () => {
         onChange={handleChange}
       />
       <input
+        className='col-6 m-3 bg-light text-black'
         placeholder="Username"
         name="username"
         type="text"
@@ -53,6 +61,7 @@ const SignupForm = () => {
         onChange={handleChange}
       />
       <input
+        className='col-6 m-3 bg-light text-black'
         placeholder="Email"
         name="email"
         type="email"
@@ -60,13 +69,14 @@ const SignupForm = () => {
         onChange={handleChange}
       />
       <input
+        className='col-6 m-3 bg-light text-black'
         placeholder="Password"
         name="password"
         type="password"
         value={formState.password}
         onChange={handleChange}
       />
-      <button type="submit">Submit</button>
+      <button className="col-6 my-5 " type="submit">Submit</button>
     </form>
   );
 }
